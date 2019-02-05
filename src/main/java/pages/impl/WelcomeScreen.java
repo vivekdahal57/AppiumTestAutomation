@@ -78,7 +78,6 @@ public class WelcomeScreen extends AbstractScreenComponent implements IWelcomeSc
             PageFactory.initElements(driver, this);
         }
 
-        //
         @iOSXCUITFindBy(accessibility = "WelcomeScreen_btnAccept")
         @AndroidFindBy(accessibility = "WelcomeScreen_btnAccept")
         private MobileElement btn_Start;
